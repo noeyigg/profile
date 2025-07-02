@@ -1,105 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>GIYEON</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"/>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
+  <head>
+    <title>GIYEON</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
       <a href="/" class="logo">GIYEON</a>
-    <nav>
-      <ul>
-        <li>
-          <a href="/">profile</a>
-        </li>
-        <li>
-          <a href="">project</a>
-        </li>
-        <li>
-          <a href="">article</a>
-        </li>
-        <li>
-          <a href="">GitHub</a>
-        </li>
-        <li>
-          <a href="">contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="profile">
-      <div class="intro">
-        <img src="src/images/profile.jpg" alt="프로필 사진">
-        <div class="intro-text">
-          <p class="name">남기연</p>
-          <p>사람을 위한 기술을 고민하는 개발자</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Profile</a>
+          </li>
+          <li>
+            <a href="">Project</a>
+          </li>
+          <li>
+            <a href="">Article</a>
+          </li>
+          <li class="github">
+            <a href="https://github.com/noeyigg">GitHub</a>
+          </li>
+          <li>
+            <button popovertarget="popover">Contact</button>
+          </li>
+        </ul>
+        <div id="popover" popover>
+          <p>&#128222; 010-8608-5700</p>
+          <p>&#128231; 1636014@gmail.com</p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="profile">
+        <div class="intro">
+          <img src="src/images/profile.jpg" alt="프로필 사진" />
+          <div class="intro-text">
+            <p class="name">남기연</p>
+            <p>사람을 위한 기술을 고민하는 개발자</p>
+          </div>
+        </div>
+        <div class="career">
+          <h1>Career</h1>
+          <ul class="timeline">
+            <li class="direction-r">
+              <div class="flag-wrapper">
+                <p>
+                  <span class="flag">이화여자대학교 졸업</span>
+                  <span class="time-wrapper"
+                    ><span class="time">2020</span></span
+                  >
+                </p>
+              </div>
+            </li>
+            <li class="direction-l">
+              <div class="flag-wrapper">
+                <p>
+                  <span class="flag"
+                    >교육부 인공지능교육 현장지원자료 사례 등재</span
+                  >
+                  <span class="time-wrapper"
+                    ><span class="time">2022</span></span
+                  >
+                </p>
+              </div>
+              <p>AI 이미지 인식 기술을 활용한 유아 블록코딩 교육</p>
+            </li>
+            <li class="direction-r">
+              <div class="flag-wrapper">
+                <p>
+                  <span class="flag">주식회사 동안기획 개발팀 대리</span>
+                  <span class="time-wrapper"
+                    ><span class="time">2024.11 - 2025.05</span></span
+                  >
+                </p>
+              </div>
+              <p>
+                닥터에버스 피부과 시술 가이드 웹 풀스택 개발 (Express.js, EJS,
+                MongoDB)
+              </p>
+              <p>
+                닥터에버스 피부과 환자 차트관리 CRM 프론트엔드 개발 (Flutter)
+              </p>
+            </li>
+            <li class="direction-l">
+              <div class="flag-wrapper">
+                <p>
+                  <span class="flag"
+                    >우리FIS 아카데미 5기 클라우드 서비스 개발</span
+                  >
+                  <span class="time-wrapper"
+                    ><span class="time">2025.07 -</span></span
+                  >
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="license">
+          <h1>License</h1>
+          <ul>
+            <li>정보처리기사</li>
+            <li>SQLD</li>
+            <li>웹 디자인 기능사</li>
+            <li>GTQ 포토샵 1급</li>
+          </ul>
+        </div>
+        <div class="stack">
+          <h1>Stack</h1>
+          <ul>
+            <li>JavaScript</li>
+            <li>Flutter</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h1>Contact</h1>
+          <ul>
+            <li>&#128222; 010-8608-5700</li>
+            <li>&#128231; 1636014@gmail.com</li>
+          </ul>
         </div>
       </div>
-      <div class="career">
-        <h1>Career</h1>
-        <ul class="timeline">
-          <li class="direction-r">
-            <div class="flag-wrapper">
-              <span class="flag">이화여자대학교 졸업</span>
-              <span class="time-wrapper"><span class="time">2020</span></span>
-            </div>
-          </li>
-          <li class="direction-l">
-            <div class="flag-wrapper">
-              <span class="flag">교육부 인공지능교육 현장지원자료 사례 수록</span>
-              <span class="time-wrapper"><span class="time">2022</span></span>
-            </div>
-            <p>
-              
-            </p>
-          </li>
-          <li class="direction-r">
-            <div class="flag-wrapper">
-              <span class="flag">주식회사 동안기획 개발팀 대리</span>
-              <span class="time-wrapper"><span class="time">2024.11 - 2025.05</span></span>
-            </div>
-            <p>
-              닥터에버스 피부과 시술 가이드 웹 풀스택 개발 (Express.js, EJS, MongoDB)
-            </p>
-            <p>
-              닥터에버스 피부과 환자 차트관리 CRM 프론트엔드 개발 (Flutter)
-            </p>
-          </li>
-          <li class="direction-l">
-            <div class="flag-wrapper">
-              <span class="flag">우리FIS 아카데미 5기 클라우드 서비스 개발</span>
-              <span class="time-wrapper"><span class="time">2025.07 -</span></span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="license">
-        <h1>License</h1>
-        <ul>
-          <li>정보처리기사</li>
-          <li>SQLD</li>
-          <li>웹 디자인 기능사</li>
-          <li>GTQ 포토샵 1급</li>
-        </ul>
-      </div>
-      <div class="stack">
-        <h1>Stack</h1>
-        <ul>
-          <li>JavaScript</li>
-          <li>Flutter</li>
-        </ul>
-      </div>
-      <div class="contact">
-        <h1>Contact</h1>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <span>© 2025 NAMGIYEON. All rights reserved.</span>
-  </footer>
-</body>
+    </main>
+    <footer>
+      <span>© 2025 NAMGIYEON. All rights reserved.</span>
+    </footer>
+  </body>
 </html>
