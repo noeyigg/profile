@@ -1,0 +1,43 @@
+.project {
+    display: flex;
+    width: 70vw;
+    max-width: 85rem;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 2rem;
+    margin: 5rem auto;
+}
+
+.project-img {
+    width: 40%;
+    margin-right: 2rem;
+    border-radius: 4px;
+    max-width: 25rem;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.info {
+    color: gray;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.tech-stack {
+    line-height: 2.5rem;
+    margin-top: 3rem;
+}
+
+.tech-stack span {
+    font-weight: bold;
+    margin-right: 2rem;
+}
